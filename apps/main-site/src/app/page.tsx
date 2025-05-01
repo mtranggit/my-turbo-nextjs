@@ -1,4 +1,6 @@
+import { Button } from "@repo/ui/button";
 import Image from "next/image";
+import React from "react";
 
 export default function Home() {
   return (
@@ -50,6 +52,12 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <Button
+            appName='main-site'
+            className='px-5 py-2 rounded-full bg-blue-700 text-white'
+          >
+            Click me
+          </Button>
         </div>
       </main>
       <footer className='row-start-3 flex gap-[24px] flex-wrap items-center justify-center'>
