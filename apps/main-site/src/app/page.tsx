@@ -2,12 +2,14 @@ import Image from "next/image";
 
 import {Button} from "@repo/ui/button";
 import Counter from "./components/Counter";
+import Pokemon from "./components/Pokemon";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello Nextjs</h1>
+      <h1 className="text-5xl">Hello Nextjs</h1>
       <Counter />
+      <Pokemon />
     </main>
   );
 }
