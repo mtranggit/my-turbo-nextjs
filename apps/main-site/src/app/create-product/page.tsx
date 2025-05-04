@@ -1,6 +1,8 @@
 import AddProduct from "./components/AddProduct";
 import Products from "./components/Product";
 
+export const dynamic = "force-dynamic";
+
 export default function CreateProduct() {
 	return (
 		<div>
