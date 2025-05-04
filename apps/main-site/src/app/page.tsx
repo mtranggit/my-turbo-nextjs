@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <h1 className="text-5xl">Hello Nextjs</h1>
       <Counter />
-      <Pokemon />
+      {/* <Pokemon /> */}
     </main>
   );
 }

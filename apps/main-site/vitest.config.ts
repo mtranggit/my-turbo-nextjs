@@ -15,5 +15,6 @@ export default defineConfig({
       reporter: ['text', 'json', 'html'],
       exclude: ['**/node_modules/**', '**/*.stories.tsx'],
     },
+    exclude: ['**/node_modules/**', '**/*.stories.tsx', './src/e2e/**'],
   },
 });
