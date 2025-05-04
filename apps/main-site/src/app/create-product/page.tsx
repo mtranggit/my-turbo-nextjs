@@ -1,7 +1,7 @@
 import AddProduct from "./components/AddProduct";
 import Products from "./components/Product";
 
-export default function CreateProduct() {
+export default async function CreateProduct() {
 	return (
 		<div>
 			<h1>Product List</h1>
