@@ -4,7 +4,7 @@ import Pokemon from "./components/Pokemon";
 export default function Home() {
   return (
     <main>
-      <h1 className="text-5xl">Hello Nextjs</h1>
+      <h1 className="text-5xl">Hello Turborepo Nextjs</h1>
       <Counter />
       <Pokemon />
     </main>
